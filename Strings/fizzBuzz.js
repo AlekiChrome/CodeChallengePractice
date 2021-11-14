@@ -21,7 +21,7 @@ let fizzBuzzResult = [];
     } else if (i % 3 === 0) {
       fizzBuzzResult.push("Fizz")
     } else
-    fizzBuzzResult.push("" + i);
+    fizzBuzzResult.push('' + i);
   }
   return (fizzBuzzResult);
 }

@@ -28,12 +28,12 @@
       let str = numbers.join('');
 
     // Handle the parenthesis number
-      let firstPart = `(${str.substring(0, 3)})`
+      let areaCode = `(${str.substring(0, 3)})`
 
     // seperate the following 6 numbers and into two parts of three separated by a dash
     let body = `${str.substring(3, 6)}-${str.substring(6)}`
     // console.log(body);
 
-    return `${firstPart} ${body}`   
+    return `${areaCode} ${body}`   
   }
   console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
